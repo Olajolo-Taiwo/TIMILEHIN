@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Timilehin</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+   <header>
+<div class="logo"></div>
+
+
+    <nav class="navbar" id="navbar">
+  <div class="close-btn" id="close-btn"> &times;</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html" >About</a></li>
+    <li><a href="project.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+  </header>
+
+<section id="contact" class="contact-section">
+  <h2 class="section-title">Contact Me</h2>
+  <p class="contact-intro">
+    Got a project in mind? I&#39;m always open to exciting collaborations, creative ideas, or just good conversations!
+  </p>
+  <p class="contact-intro">I&#39;m very approachable and flexible, feel very free to send me a message...</p>
+
+  <form id="whatsapp-form" class="contact-form" onsubmit="sendToWhatsApp(event)">
+    <textarea id="whatsapp-message" rows="5" placeholder="Type your message here..." required></textarea>
+    <button type="submit" class="btn"><i class="fab fa-whatsapp"></i> Send Message</button>
+  </form>
+
+  <div class="social-links">
+    <a href="https://linkedin.com/in/your-username" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://twitter.com/your-username" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://instagram.com/your-username" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i> </a>
+    <a href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
+  </div>
+</section>
+
+<script src="contact.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
