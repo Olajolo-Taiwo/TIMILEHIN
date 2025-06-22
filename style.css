@@ -445,3 +445,7 @@ header {
 .btn i {
   margin-right: 0.5rem;
 }
+.ongoing{
+  color: purple;
+  font-weight: bolder;
+}
