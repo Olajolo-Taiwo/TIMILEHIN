@@ -169,7 +169,9 @@ header {
   .hero-buttons {
     justify-content: flex-start;
   }
-
+.shlash {
+  display: none;
+}
 .navbar {
   position: fixed;
   top: 0;
