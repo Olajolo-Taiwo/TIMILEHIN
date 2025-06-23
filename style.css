@@ -453,3 +453,25 @@ header {
   color: purple;
   font-weight: bolder;
 }
+
+#certifications {
+  padding: 60px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+#certifications h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #b64fc8; /* your theme purple */
+}
+
+#certifications ul {
+  list-style: none;
+  padding: 0;
+}
+
+#certifications li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
