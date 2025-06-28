@@ -73,7 +73,6 @@ header {
 .hero {
   padding: 4rem 2rem;
   text-align: center;
-  z-index: -1;
 }
 .hero-logo {
   width: 200px;
@@ -84,6 +83,7 @@ header {
   margin-right: auto;
   animation: spinIn 4.2s ease-out forwards;
   opacity: 0;
+  z-index: -1;
 }
 
 @keyframes spinIn {
