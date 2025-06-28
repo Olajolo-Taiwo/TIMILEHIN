@@ -24,7 +24,7 @@ closeBtn.addEventListener("click", () => {
 
   window.addEventListener("load", typeName);
 
-  const aboutText = "Welcome to my creative space! I am Timilehin Olajolo, a Frontend Developer passionate about building clean, responsive, and user-friendly websites. I have a solid foundation in HTML and CSS, and I am  very versed in popular frontend frameworks like Tailwind CSS. I enjoy bringing static designs to life and learning new technologies along the way. As I continue moving from beginner to intermediate level, I'm focused on refining my skills and exploring React to build better, more interactive user experiences. I believe growth comes from practice, consistency, and curiosity.";
+  const aboutText = "A frontend developer who enjoys building clean, responsive websiteswith HTML, CSS, and JavaScript. I’m getting comfortable withTailwind CSS and plan to dive into React soon to take my skills further. I believe in learning by doing—whether it’s tweaking layouts, fixing tricky bugs, or exploring new ways to make websites smoother and more interactive. Right now, I’m focused on sharpening my fundamentals while slowly stepping into more advanced tools.Not an expert, but definitely on my way.";
 
   const aboutEl = document.querySelector('.typed-about');
   let a = 0;

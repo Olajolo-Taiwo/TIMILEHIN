@@ -3,13 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  margin: 0;
+p{
+  z-index: 1;
 }
 
 body {
   background-color: black;
   color: #fff;
+  margin: 0;
   font-family: 'Segoe UI', sans-serif;
 }
 a {
@@ -22,18 +23,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
   background: transparent;
   position: relative;
-}
-header {
   width: 100%;
   height: 60px;
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
+  padding: 20px;
   transform: translateX(-100%);
-  animation: slideIn 1.9s ease-out forwards;
+  animation: slideIn 1.9s ease-out forwards;    
 }
 
 @keyframes slideIn {
@@ -180,6 +176,7 @@ header {
   .hero {
     text-align: left;
     padding: 2rem 1.5rem;
+    z-index: 1;
   }
 
   .hero h2,
@@ -203,7 +200,7 @@ header {
   backdrop-filter: blur(8px);   
   padding-top: 5rem;
   transition: left 0.3s ease;
-  z-index: 1000;
+  z-index: 999;
 }
   .navbar.active {
     left: 0;
@@ -211,7 +208,9 @@ header {
   .navbar ul {
     flex-direction: column;
     gap: 2rem;
-    padding-left: 2rem;
+    padding: 2rem;
+    background-color: black;
+    border-bottom-right-radius: 20px;
   }
 
   .menu-toggle {
