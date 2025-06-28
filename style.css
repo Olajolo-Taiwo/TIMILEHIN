@@ -3,9 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-p{
-  z-index: 1;
-}
 
 body {
   background-color: black;
@@ -164,6 +161,8 @@ header {
   display: inline-block;
   animation: wave 2s infinite;
   transform-origin: 70% 70%;
+  z-index: -1;
+  position: relative;
 }
 
 @media (min-width: 480px) {
@@ -176,7 +175,6 @@ header {
   .hero {
     text-align: left;
     padding: 2rem 1.5rem;
-    z-index: 1;
   }
 
   .hero h2,
@@ -196,11 +194,10 @@ header {
   left: -100%;
   width: 60%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(8px);   
   padding-top: 5rem;
   transition: left 0.3s ease;
-  z-index: 999;
+  z-index: 9999;
 }
   .navbar.active {
     left: 0;
