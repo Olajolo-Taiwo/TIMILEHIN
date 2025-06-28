@@ -73,6 +73,7 @@ header {
 .hero {
   padding: 4rem 2rem;
   text-align: center;
+  z-index: -1;
 }
 .hero-logo {
   width: 200px;
